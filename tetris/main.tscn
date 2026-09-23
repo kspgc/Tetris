@@ -1,9 +1,0 @@
-[gd_scene format=3 uid="uid://nawetuxdkpuw"]
-
-[ext_resource type="Texture2D" uid="uid://uldwrppee2wb" path="res://assets/background.png" id="1_ig7tw"]
-
-[node name="Main" type="Node2D" unique_id=1344596821]
-
-[node name="Background" type="Sprite2D" parent="." unique_id=1056866785]
-position = Vector2(960, 540)
-texture = ExtResource("1_ig7tw")
