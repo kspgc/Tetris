@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bxcdievd7vt7i"]
+
+[ext_resource type="Script" uid="uid://c0sc2xstfr67d" path="res://entity/BlockBoard/block_board.gd" id="1_bodig"]
+[ext_resource type="Texture2D" uid="uid://ce6qmxjoc4eig" path="res://asset/block_board.png" id="2_bodig"]
+
+[node name="BlockBoard" type="Node2D" unique_id=476999506]
+script = ExtResource("1_bodig")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1786072588]
+position = Vector2(960, 540)
+texture = ExtResource("2_bodig")
